@@ -46,14 +46,13 @@ export const signUpEmployment = async (req, res) => {
 
 //company logo image upload
 export const imageUpload = async (req, res) => {
-  console.log(req.file);
+  console.log("file", req.file);
   try {
     if (req.file) {
       const uploadResponse = await cloudinaryConfig.uploader.upload(
         req.file.path,
         { upload_preset: "job_portal" }
       );
-      console.log("res", uploadResponse);
 
       if (uploadResponse) {
         res.status(201).json({
