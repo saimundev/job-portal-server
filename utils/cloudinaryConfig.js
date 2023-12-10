@@ -7,9 +7,9 @@ dotenv.config();
 const cloudinaryConfig = cloudinary.v2;
 
 cloudinaryConfig.config({
-  cloud_name: process.env.API_Name,
-  api_key: process.env.API_KEY,
-  api_secret: process.env.API_SECRET,
+  cloud_name: "saimun",
+  api_key: "sD-TxY6HS4iurHmJ3rHerT-CZr8",
+  api_secret: "557893492874456",
 });
 
 export default cloudinaryConfig;
