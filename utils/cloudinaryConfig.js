@@ -8,8 +8,8 @@ const cloudinaryConfig = cloudinary.v2;
 
 cloudinaryConfig.config({
   cloud_name: "saimun",
-  api_key: "sD-TxY6HS4iurHmJ3rHerT-CZr8",
-  api_secret: "557893492874456",
+  api_key: "557893492874456",
+  api_secret: "sD-TxY6HS4iurHmJ3rHerT-CZr8",
 });
 
 export default cloudinaryConfig;
